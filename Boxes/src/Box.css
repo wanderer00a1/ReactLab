@@ -1,0 +1,11 @@
+.Box {
+    width: 100px;
+    height: 100px;
+}
+
+.box-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
